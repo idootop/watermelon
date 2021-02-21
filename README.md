@@ -38,7 +38,7 @@
 
 # 开源地址
 
-本项目开源地址 https://github.com/idootop/fallDown , 欢迎Star/PR  ^^
+本项目开源地址 https://github.com/idootop/watermelon , 欢迎Star/PR  ^^
 
 Web端生成
 ```shell
