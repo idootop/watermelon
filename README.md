@@ -49,6 +49,8 @@ PS：亦可支持iOS，Mac，Windows，Linux端，请自行打包
 
 # 免责声明
 
+For learning purposes only. 
+
 本游戏的创意玩法来自[《合成大西瓜》](http://www.wesane.com/game/654/)，应用内的素材收集自互联网，部分图片、音频素材版权归[微伞小游戏](http://www.wesane.com/)所有，侵删。
 
 # 鸣谢
