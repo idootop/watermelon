@@ -198,7 +198,7 @@ class LevelEditImageList extends StatefulWidget {
 class _LevelEditImageListState extends State<LevelEditImageList> {
   PageController controller;
 
-  void onTapImage(Level level) async {
+  Future<void> onTapImage(Level level) async {
     if (widget.onTap != null) await widget.onTap(level);
   }
 

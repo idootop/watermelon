@@ -1,5 +1,3 @@
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../game/level/level.dart';
@@ -131,7 +129,7 @@ class LevelImageList extends StatefulWidget {
 class _LevelImageListState extends State<LevelImageList> {
   PageController controller;
 
-  void onTapImage(Level level) async {
+  Future<void> onTapImage(Level level) async {
     if (widget.onTap != null) await widget.onTap();
   }
 

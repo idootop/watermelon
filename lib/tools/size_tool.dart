@@ -1,6 +1,6 @@
 import 'package:flame/game.dart';
-import 'package:flame_forge2d/viewport.dart';
-import 'package:flutter/widgets.dart' hide Viewport;
+import 'package:flame_forge2d/viewport.dart' as v;
+import 'package:flutter/widgets.dart';
 
 extension Size2Vector on Size {
   Vector2 get toVector => Vector2(width, height);
@@ -21,7 +21,7 @@ extension SizeVector on BuildContext {
   Vector2 get vector => Vector2(size.width, size.height);
 }
 
-extension VW on Viewport {
+extension VW on v.Viewport {
   double vw(double percent) => percent * (size.x / 100);
   double vh(double percent) => percent * (size.y / 100);
 }

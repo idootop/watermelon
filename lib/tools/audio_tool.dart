@@ -12,7 +12,7 @@ class AudioTool {
   //   return path;
   // }
 
-  static void loadAll() async {
+  static Future<void> loadAll() async {
     if (kIsWeb) return; //audioplayers不支持web端音频缓存
     await FlameAudio.audioCache.loadAll([
       'boom.mp3',

@@ -11,7 +11,7 @@ import 'ui_image_tool.dart';
 class ImageTool {
   static ImageCaches imageCaches = ImageCaches();
 
-  static void loadAll() async {
+  static Future<void> loadAll() async {
     if (!Levels.inited) {
       await Levels.init();
     }
@@ -26,7 +26,7 @@ class ImageTool {
     ]);
   }
 
-  static void loadInnerLevels() async {
+  static Future<void> loadInnerLevels() async {
     if (!Levels.inited) {
       await Levels.init();
     }

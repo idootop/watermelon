@@ -55,7 +55,7 @@ class DialogTool {
 
   static Future<void> close() async {
     if (!showing) return;
-    await Navigator.of(NavigatorTool.gContext).pop();
+    Navigator.of(NavigatorTool.gContext).pop();
     showing = false;
   }
 }

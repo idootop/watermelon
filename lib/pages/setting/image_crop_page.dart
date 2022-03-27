@@ -81,8 +81,8 @@ class _ImageCropPageState extends State<ImageCropPage> {
       child: Crop(
         controller: cropController,
         shape: cropShape,
-        child: cropImage,
         fit: cropFit,
+        child: cropImage,
       ),
     );
   }

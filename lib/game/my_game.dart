@@ -1,7 +1,6 @@
 import 'package:flame/components.dart';
 import 'package:flame_forge2d/forge2d_game.dart';
 import 'package:flutter/material.dart';
-import 'package:forge2d/forge2d.dart';
 
 import '../controllers/generate_ball.dart';
 import '../tools/size_tool.dart';

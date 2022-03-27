@@ -12,8 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   pedantic: ^1.9.2
-  flame: ^1.0.0-rc6
-  flame_forge2d: ^0.6.2-rc3
+  flame: 1.0.0-rc6
+  flame_forge2d: 0.6.2-rc3
   path_provider: ^1.6.27
   hive: ^1.4.4+1
   sensors: ^0.4.2+6
