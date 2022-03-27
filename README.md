@@ -31,14 +31,9 @@
 
 网页版：http://v.idoo.top/mix
 
-安卓/iOS：https://www.pgyer.com/Dagua 
+安卓：https://www.pgyer.com/Dagua 
 
-***PS：iOS版安装包需要自签才能使用***
-
-
-# 开源地址
-
-本项目开源地址 https://github.com/idootop/watermelon , 欢迎Star/PR  ^^
+# 开发
 
 Web端生成
 ```shell
@@ -53,8 +48,6 @@ flutter build apk --split-per-abi
 PS：亦可支持iOS，Mac，Windows，Linux端，请自行打包
 
 # 免责声明
-
-合成大瓜为免费开源软件，仅供学习交流，你可以非商业性地下载、安装、复制和散发本软件产品。
 
 本游戏的创意玩法来自[《合成大西瓜》](http://www.wesane.com/game/654/)，应用内的素材收集自互联网，部分图片、音频素材版权归[微伞小游戏](http://www.wesane.com/)所有，侵删。
 
