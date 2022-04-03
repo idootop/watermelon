@@ -27,11 +27,11 @@
 | :------------: | :------------: | :------------: | :------------: |
 
 
-# 下载地址
+# 在线预览
 
 网页版：http://v.idoo.top/mix
 
-安卓：https://www.pgyer.com/Dagua 
+安卓版：[合成大瓜.apk](release/合成大瓜.apk)
 
 # 开发
 
@@ -42,7 +42,7 @@ flutter build web --release
 
 Android端生成
 ```shell
-flutter build apk --split-per-abi
+flutter build apk --release
 ```
 
 PS：亦可支持iOS，Mac，Windows，Linux端，请自行打包
