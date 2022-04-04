@@ -1,14 +1,6 @@
-<p align="center">
-<img width="128" src="https://i.loli.net/2021/02/21/SG4uTXFlsCxtk9z.png" >
-</p>
-<p align="center">
-合成大瓜
-<p>
-<p align="center">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg">
-<p>
-
 # 简介
+
+![](screenshots/play.gif)
 
 合成大瓜是使用[Flutter](https://flutter.dev/)+[Flame](https://flame-engine.org/)+[Forge2D](https://github.com/flame-engine/forge2d)开发的一个开源小游戏。
 
@@ -22,8 +14,6 @@
 - 内置多套游戏主题（水果/表情/校徽）
 
 # 预览
-
-![](screenshots/play.gif)
 
 | ![](screenshots/play.jpg)  |  ![](screenshots/win.jpg)  |
 | :------------: | :------------: |
@@ -49,6 +39,10 @@ flutter build apk --release
 ```
 
 PS：亦可支持iOS，Mac，Windows，Linux端，请自行打包
+
+# 相关文章
+
+[趣学 Flutter「小游戏」：合成大瓜](https://juejin.cn/post/7082696847604580382)
 
 # 免责声明
 
