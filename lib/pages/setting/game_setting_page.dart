@@ -88,12 +88,11 @@ class _GameSettingPageState extends State<GameSettingPage> {
                   setting.random = v;
                   await setting.update();
                 }),
-                if (!kIsWeb)
-                  _switchItem('重力感应', value: setting.gravity,
-                      onChanged: (v) async {
-                    setting.gravity = v;
-                    await setting.update();
-                  }),
+                _switchItem('重力感应', value: setting.gravity,
+                    onChanged: (v) async {
+                  setting.gravity = v;
+                  await setting.update();
+                }),
                 _switchItem('音效', value: setting.music, onChanged: (v) async {
                   setting.music = v;
                   await setting.update();

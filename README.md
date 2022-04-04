@@ -23,8 +23,11 @@
 
 # 预览
 
-| ![](screenshots/play.jpg)  |  ![](screenshots/win.jpg)  |  ![](screenshots/inner.jpg) |  ![](screenshots/img.jpg)  |
-| :------------: | :------------: | :------------: | :------------: |
+![](screenshots/play.gif)
+
+| ![](screenshots/play.jpg)  |  ![](screenshots/win.jpg)  |
+| :------------: | :------------: |
+| ![](screenshots/inner.jpg) |  ![](screenshots/img.jpg)  |
 
 
 # 在线预览

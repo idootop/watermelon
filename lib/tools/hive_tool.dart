@@ -13,9 +13,7 @@ class HiveTool {
   bool get inited => box != null;
 
   Future<void> init() async {
-    if (kIsWeb) {
-      //nothing
-    } else {
+    if (!kIsWeb) {
       final directory = await getApplicationDocumentsDirectory();
       Hive.init(directory.path);
     }

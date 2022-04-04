@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:sensors/sensors.dart';
+import 'package:sensors_plus/sensors_plus.dart';
 
 class XYZ {
   XYZ(this.x, this.y, this.z);
@@ -21,7 +21,6 @@ class SensorTool {
   static XYZ get xyz => _xyz ?? XYZ(0, 0, 0);
 
   static Future<void> start() async {
-    if (kIsWeb) return;
     await stop();
     _stream = accelerometerEvents.listen((data) {
       _xyz = XYZ(data.x, data.y, data.z);
@@ -29,6 +28,6 @@ class SensorTool {
   }
 
   static Future<void> stop() async {
-    if (!kIsWeb) await _stream?.cancel();
+    await _stream?.cancel();
   }
 }

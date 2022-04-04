@@ -29,27 +29,19 @@ class _GamePageState extends State<GamePage> {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onHorizontalDragEnd: (_) {
-        if (kIsWeb) {
-          //侧滑返回手势
-          NavigatorTool.pop();
-        }
-      },
-      child: Scaffold(
-        body: SafeArea(
-          child: LayoutBuilder(
-            builder: (_, constraints) {
-              SystemTool.changeStatusBarColor();
-              return GameWidget(
-                game: MyGame(
-                  constraints.maxWidth,
-                  constraints.maxHeight,
-                  hide: widget.hide,
-                ),
-              );
-            },
-          ),
+    return Scaffold(
+      body: SafeArea(
+        child: LayoutBuilder(
+          builder: (_, constraints) {
+            SystemTool.changeStatusBarColor();
+            return GameWidget(
+              game: MyGame(
+                constraints.maxWidth,
+                constraints.maxHeight,
+                hide: widget.hide,
+              ),
+            );
+          },
         ),
       ),
     );

@@ -4,14 +4,6 @@ import 'package:flutter/foundation.dart';
 import '../game/game_state.dart';
 
 class AudioTool {
-  // static Future<String> save(Image img) async {
-  //   final timestamp = DateTime.now().millisecondsSinceEpoch.toString();
-  //   final bytes = await img.toBytes();
-  //   final path = '/audios/$timestamp.a';
-  //   await FileTool.write(path, bytes);
-  //   return path;
-  // }
-
   static Future<void> loadAll() async {
     if (kIsWeb) return; //audioplayers不支持web端音频缓存
     await FlameAudio.audioCache.loadAll([

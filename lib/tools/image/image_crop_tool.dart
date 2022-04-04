@@ -10,7 +10,7 @@ import 'image_tool.dart';
 class ImageCropTool {
   static Future<String> crop() async {
     if (kIsWeb) {
-      DialogTool.loading('加载中');
+      DialogTool.loading('加载中...');
       final bytes = await ImagePickTool.pickImageAsBytes();
       final image = decodeImage(bytes);
       final croped = copyCropCircle(image);

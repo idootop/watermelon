@@ -64,19 +64,21 @@ class BloomPartcle {
     Color color,
   }) {
     return AcceleratedParticle(
-        position: position,
-        speed: angle * speed,
-        acceleration: angle * radius,
-        child: ComputedParticle(
-            renderer: (canvas, particle) => canvas.drawCircle(
-                  Offset.zero,
-                  particle.progress * 5,
-                  Paint()
-                    ..color = Color.lerp(
-                      color,
-                      Colors.white,
-                      particle.progress * 0.1,
-                    ),
-                )));
+      position: position,
+      speed: angle * speed,
+      acceleration: angle * radius,
+      child: ComputedParticle(
+        renderer: (canvas, particle) => canvas.drawCircle(
+          Offset.zero,
+          particle.progress * 5,
+          Paint()
+            ..color = Color.lerp(
+              color,
+              Colors.white,
+              particle.progress * 0.1,
+            ),
+        ),
+      ),
+    );
   }
 }
