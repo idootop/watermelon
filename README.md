@@ -1,6 +1,6 @@
-# 简介
-
 ![](screenshots/play.gif)
+
+# 简介
 
 合成大瓜是使用[Flutter](https://flutter.dev/)+[Flame](https://flame-engine.org/)+[Forge2D](https://github.com/flame-engine/forge2d)开发的一个开源小游戏。
 
