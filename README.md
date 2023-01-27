@@ -22,9 +22,7 @@
 
 # 在线预览
 
-网页版：http://v.idoo.top/mix
-
-安卓版：[合成大瓜.apk](release/合成大瓜.apk)
+https://mix.xbox.work
 
 # 开发
 
